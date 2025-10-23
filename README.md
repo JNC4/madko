@@ -108,7 +108,7 @@ madameko/
 - 🔍 SEO-friendly metadata
 - ♿ Accessible components
 
-## Next Steps - Phase 2
+Phase 2
 
 Phase 2 will include:
 - Shop page with product listing and filtering
@@ -116,6 +116,8 @@ Phase 2 will include:
 - Collections pages
 - Cart drawer functionality
 - Checkout integration
+
+PHASE 2 and 3 ARE COMPLETE, README SHOULD BE UPDATED
 
 ## Customization Guide
 
