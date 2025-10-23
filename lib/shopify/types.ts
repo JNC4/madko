@@ -4,7 +4,7 @@ export interface Money {
 }
 
 export interface Image {
-  id: string;
+  id?: string;
   url: string;
   altText: string | null;
   width: number;
@@ -48,6 +48,7 @@ export interface Product {
     name: string;
     values: string[];
   }[];
+  tags?: string[];
 }
 
 export interface ProductEdge {
@@ -70,6 +71,11 @@ export interface Collection {
   handle: string;
   description: string;
   image?: Image;
+  products?: {
+    edges: {
+      node: Product;
+    }[];
+  };
 }
 
 export interface Cart {

@@ -91,7 +91,7 @@ export default async function CollectionPage({ params }: { params: { handle: str
     notFound();
   }
 
-  const products = collection.products.edges.map((edge) => edge.node);
+  const products = collection.products?.edges.map((edge) => edge.node as any) || [];
 
   return (
     <PageLayout>

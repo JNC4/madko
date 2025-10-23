@@ -14,14 +14,14 @@ async function getFeaturedProducts() {
 
     // Use mock featured products if no products from Shopify
     if (products.length === 0) {
-      return mockProducts.filter((p) => p.tags.includes('featured')).slice(0, 3);
+      return mockProducts.filter((p) => p.tags?.includes('featured')).slice(0, 3);
     }
 
     return products;
   } catch (error) {
     console.error('Error fetching featured products:', error);
     // Return mock featured products on error
-    return mockProducts.filter((p) => p.tags.includes('featured')).slice(0, 3);
+    return mockProducts.filter((p) => p.tags?.includes('featured')).slice(0, 3);
   }
 }
 

@@ -32,7 +32,7 @@ export const mockProducts: Product[] = [
           node: {
             id: 'mock-variant-1',
             title: '30ml',
-            priceV2: {
+            price: {
               amount: '68.00',
               currencyCode: 'USD',
             },
@@ -49,7 +49,7 @@ export const mockProducts: Product[] = [
           node: {
             id: 'mock-variant-2',
             title: '50ml',
-            priceV2: {
+            price: {
               amount: '98.00',
               currencyCode: 'USD',
             },
@@ -96,7 +96,7 @@ export const mockProducts: Product[] = [
           node: {
             id: 'mock-variant-3',
             title: '50ml',
-            priceV2: {
+            price: {
               amount: '85.00',
               currencyCode: 'USD',
             },
@@ -143,7 +143,7 @@ export const mockProducts: Product[] = [
           node: {
             id: 'mock-variant-4',
             title: '100ml',
-            priceV2: {
+            price: {
               amount: '42.00',
               currencyCode: 'USD',
             },
@@ -190,7 +190,7 @@ export const mockProducts: Product[] = [
           node: {
             id: 'mock-variant-5',
             title: '150ml',
-            priceV2: {
+            price: {
               amount: '58.00',
               currencyCode: 'USD',
             },
@@ -207,7 +207,7 @@ export const mockProducts: Product[] = [
           node: {
             id: 'mock-variant-6',
             title: '200ml',
-            priceV2: {
+            price: {
               amount: '78.00',
               currencyCode: 'USD',
             },
@@ -254,7 +254,7 @@ export const mockProducts: Product[] = [
           node: {
             id: 'mock-variant-7',
             title: '15ml',
-            priceV2: {
+            price: {
               amount: '72.00',
               currencyCode: 'USD',
             },
@@ -301,7 +301,7 @@ export const mockProducts: Product[] = [
           node: {
             id: 'mock-variant-8',
             title: '75ml',
-            priceV2: {
+            price: {
               amount: '48.00',
               currencyCode: 'USD',
             },
@@ -335,7 +335,7 @@ export const mockCollections: Collection[] = [
     },
     products: {
       edges: mockProducts
-        .filter((p) => p.tags.includes('bestseller'))
+        .filter((p) => p.tags?.includes('bestseller'))
         .map((product) => ({ node: product })),
     },
   },
@@ -352,7 +352,7 @@ export const mockCollections: Collection[] = [
     },
     products: {
       edges: mockProducts
-        .filter((p) => p.tags.includes('serum'))
+        .filter((p) => p.tags?.includes('serum'))
         .map((product) => ({ node: product })),
     },
   },
