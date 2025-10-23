@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -18,14 +18,18 @@ interface HomeClientProps {
 }
 
 export default function HomeClient({ featuredProducts }: HomeClientProps) {
-  // Always start with loading true to avoid hydration mismatch
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [showContent, setShowContent] = useState(false);
-  const [mounted, setMounted] = useState(false);
+  const hasCheckedRef = useRef(false);
 
   useEffect(() => {
-    // This only runs on client after hydration
-    setMounted(true);
+    // Only check once to prevent double-render issue
+    if (hasCheckedRef.current) {
+      console.log('HomeClient: Already checked, skipping');
+      return;
+    }
+
+    hasCheckedRef.current = true;
 
     const hasVisited = sessionStorage.getItem('madameko_visited');
     console.log('HomeClient: Initial check, hasVisited =', hasVisited);
@@ -38,6 +42,7 @@ export default function HomeClient({ featuredProducts }: HomeClientProps) {
     } else {
       // First visit - show loading animation
       console.log('HomeClient: First visit, showing loading');
+      // Keep isLoading = true (already set in state)
       sessionStorage.setItem('madameko_visited', 'true');
     }
   }, []);
@@ -52,16 +57,13 @@ export default function HomeClient({ featuredProducts }: HomeClientProps) {
     }, 100);
   };
 
-  console.log('HomeClient: Rendering, isLoading =', isLoading, 'showContent =', showContent, 'mounted =', mounted);
-
-  // Don't render loading circle until mounted to avoid hydration errors
-  if (!mounted) {
-    return null;
-  }
+  console.log('HomeClient: Rendering, isLoading =', isLoading, 'showContent =', showContent);
 
   return (
     <>
-      <LoadingCircle isLoading={isLoading} onLoadingComplete={handleLoadingComplete} />
+      {isLoading && (
+        <LoadingCircle isLoading={isLoading} onLoadingComplete={handleLoadingComplete} />
+      )}
 
       <AnimatePresence>
         {showContent && (
