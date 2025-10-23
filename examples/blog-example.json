@@ -1,0 +1,98 @@
+{
+  "title": "Example Blog Article Structure for Madame Ko",
+  "description": "This file shows how to create blog posts that work with the existing blog architecture",
+  "exampleArticle": {
+    "id": "gid://shopify/Article/1234567890",
+    "title": "The 10-Step Korean Skincare Routine: A Parisian's Guide",
+    "handle": "10-step-korean-skincare-routine-parisian-guide",
+    "excerpt": "Discover how to master the legendary Korean skincare routine with a touch of Parisian elegance. Learn which steps are essential and which you can skip.",
+    "publishedAt": "2024-01-15T10:00:00Z",
+    "author": {
+      "name": "Sophie Chen"
+    },
+    "image": {
+      "url": "https://cdn.shopify.com/s/files/1/xxxx/blog-korean-routine.jpg",
+      "altText": "Korean skincare products arranged elegantly",
+      "width": 1600,
+      "height": 900
+    },
+    "tags": ["skincare-tips", "korean-beauty", "routines"],
+    "contentHtml": "<p>When I first moved from Seoul to Paris, I brought with me more than just my suitcase—I carried the beauty wisdom of generations. The Korean 10-step skincare routine might seem daunting at first, but let me guide you through it with the practical elegance I've learned to embrace in Paris.</p>\n\n<h2>Understanding the Philosophy</h2>\n\n<p>Korean skincare isn't about following strict rules—it's about <strong>understanding your skin</strong> and giving it what it needs. While the traditional routine has 10 steps, think of it as a menu rather than a mandate.</p>\n\n<blockquote>\"Beauty is not about perfection—it's about the ritual of caring for yourself.\"</blockquote>\n\n<h2>The Essential Steps</h2>\n\n<h3>1. Oil Cleanser (PM Only)</h3>\n<p>Start your evening with an oil-based cleanser to dissolve makeup, sunscreen, and the day's impurities. Our <a href=\"/shop/products/seoul-cleansing-balm\">Seoul Cleansing Balm</a> transforms from solid to silky oil, melting everything away without stripping your skin.</p>\n\n<h3>2. Water-Based Cleanser</h3>\n<p>Follow with a gentle foam or gel cleanser to remove any remaining residue. This double cleanse ensures your skin is truly clean without over-washing.</p>\n\n<h3>3. Exfoliator (2-3x per week)</h3>\n<p>Gentle exfoliation reveals fresh skin. Skip on days when your skin feels sensitive.</p>\n\n<h3>4. Toner/Essence</h3>\n<p>This is where Korean and Western routines diverge beautifully. Korean toners are hydrating, not astringent. Pat in our <a href=\"/shop/products/mauve-essence-toner\">Mauve Essence Toner</a> to prep your skin for the steps ahead.</p>\n\n<img src=\"https://cdn.shopify.com/s/files/1/xxxx/toner-application.jpg\" alt=\"Applying toner with hands\" />\n\n<h3>5. Treatments (Serums & Ampoules)</h3>\n<p>This is your moment to target specific concerns:</p>\n<ul>\n  <li><strong>Brightening:</strong> Vitamin C or niacinamide</li>\n  <li><strong>Anti-aging:</strong> Retinol or peptides</li>\n  <li><strong>Hydration:</strong> Hyaluronic acid</li>\n</ul>\n\n<p>Our <a href=\"/shop/products/radiant-seoul-serum\">Radiant Seoul Serum</a> combines all three in one luxurious formula.</p>\n\n<h3>6. Sheet Mask (2-3x per week)</h3>\n<p>The iconic K-beauty step! Take 15 minutes for yourself. Light a candle, put on some French jazz, and let the serum work its magic.</p>\n\n<h3>7. Eye Cream</h3>\n<p>The delicate eye area needs its own special attention. Gently pat (never rub) from inner to outer corner.</p>\n\n<h3>8. Moisturizer</h3>\n<p>Seal in all those beautiful layers with a moisturizer suited to your skin type. Light gel for oily skin, rich cream for dry.</p>\n\n<h3>9. Night Cream (PM) or Sunscreen (AM)</h3>\n<p><strong>Morning:</strong> SPF 50 is non-negotiable. Protect that beautiful skin!</p>\n<p><strong>Evening:</strong> A richer night cream helps skin repair while you sleep.</p>\n\n<h2>The Parisian Adaptation</h2>\n\n<p>Here's my secret: <strong>You don't need all 10 steps every day.</strong> Parisians have taught me the beauty of effortless elegance—doing less, but doing it well.</p>\n\n<h3>My Minimal Morning (5 steps, 5 minutes)</h3>\n<ol>\n  <li>Water-based cleanser</li>\n  <li>Essence toner</li>\n  <li>Vitamin C serum</li>\n  <li>Light moisturizer</li>\n  <li>Sunscreen</li>\n</ol>\n\n<h3>My Full Evening (8-10 steps, 15 minutes)</h3>\n<ol>\n  <li>Oil cleanser</li>\n  <li>Water cleanser</li>\n  <li>Exfoliator (2x weekly)</li>\n  <li>Essence toner</li>\n  <li>Treatment serum</li>\n  <li>Sheet mask (2x weekly)</li>\n  <li>Eye cream</li>\n  <li>Night cream</li>\n</ol>\n\n<h2>Listen to Your Skin</h2>\n\n<p>The most important lesson I've learned? <strong>Your skin changes.</strong> What works in humid Seoul summer might not work in dry Paris winter. Pay attention, adjust accordingly, and never feel guilty about skipping steps.</p>\n\n<blockquote>\"The best skincare routine is the one you'll actually do consistently.\"</blockquote>\n\n<h2>Product Order Matters</h2>\n\n<p>Apply products from <strong>thinnest to thickest consistency:</strong></p>\n<p>Water-based → Essence → Serum → Oil/Cream</p>\n\n<p>This ensures each layer can penetrate properly and work its magic.</p>\n\n<h2>Common Mistakes to Avoid</h2>\n\n<ul>\n  <li><strong>Over-exfoliating:</strong> More is not better. 2-3x weekly is plenty.</li>\n  <li><strong>Skipping sunscreen:</strong> All your efforts are wasted without SPF.</li>\n  <li><strong>Not patch testing:</strong> New product? Test on your jawline first.</li>\n  <li><strong>Using too much:</strong> Most products only need a pea-sized amount.</li>\n  <li><strong>Expecting instant results:</strong> Give products 4-6 weeks to work.</li>\n</ul>\n\n<h2>Final Thoughts</h2>\n\n<p>Whether you embrace all 10 steps or create your own 5-step routine, the real beauty of K-beauty is the <strong>intentional self-care.</strong> It's not vanity—it's taking time to care for yourself with purpose and presence.</p>\n\n<p>Start with the basics, add steps as you fall in love with the ritual, and remember: <strong>skincare should feel luxurious, not stressful.</strong></p>\n\n<p>Bisous,<br/>Sophie</p>\n\n<hr />\n\n<p><em>Want to start your own Korean-French skincare journey? Explore our <a href=\"/shop/collections/bestsellers\">Bestsellers Collection</a> or take our <a href=\"/skincare-quiz\">Skin Quiz</a> for personalized recommendations.</em></p>",
+    "blog": {
+      "handle": "news"
+    }
+  },
+  "howToCreateInShopify": {
+    "step1": "First, create a blog: Shopify Admin > Online Store > Blog posts > Manage blogs",
+    "step2": "Create a blog named 'News' or 'Journal' (handle will be auto-generated)",
+    "step3": "Go to Blog posts > Add blog post",
+    "step4": "Enter captivating title (keep under 60 characters for SEO)",
+    "step5": "Write content using the rich text editor",
+    "step6": "Add featured image (1600x900px recommended)",
+    "step7": "Add excerpt (150-160 characters for preview cards)",
+    "step8": "Set author name",
+    "step9": "Add relevant tags (3-5 tags for categorization)",
+    "step10": "Choose publication date",
+    "step11": "Save - article appears at /blog/[blog-handle]/[article-handle]"
+  },
+  "contentFormattingTips": {
+    "headings": "Use H2 for main sections, H3 for subsections",
+    "paragraphs": "Keep paragraphs short (3-4 sentences) for readability",
+    "lists": "Use bulleted lists for easy scanning",
+    "links": "Link to products and related articles",
+    "images": "Add 2-3 images throughout long articles",
+    "blockquotes": "Use for key takeaways or memorable quotes",
+    "emphasis": "Bold key terms, italics for gentle emphasis"
+  },
+  "blogPostIdeas": [
+    {
+      "title": "Morning vs. Evening Skincare: What's the Difference?",
+      "tags": ["skincare-tips", "routines"],
+      "targetLength": "1200-1500 words"
+    },
+    {
+      "title": "Decoding K-Beauty Ingredients: Your Complete Guide",
+      "tags": ["ingredients", "education", "korean-beauty"],
+      "targetLength": "1800-2000 words"
+    },
+    {
+      "title": "How to Layer Serums Like a Pro",
+      "tags": ["skincare-tips", "advanced"],
+      "targetLength": "1000-1200 words"
+    },
+    {
+      "title": "5 French Pharmacy Secrets Every Korean Beauty Lover Should Know",
+      "tags": ["french-beauty", "korean-beauty", "tips"],
+      "targetLength": "1200-1400 words"
+    },
+    {
+      "title": "The Science Behind Glass Skin: Is It Really Achievable?",
+      "tags": ["science", "trends", "korean-beauty"],
+      "targetLength": "1500-1700 words"
+    },
+    {
+      "title": "Seasonal Skincare: Adapting Your Routine from Paris to Seoul",
+      "tags": ["seasonal", "routines", "weather"],
+      "targetLength": "1300-1500 words"
+    },
+    {
+      "title": "Clean Beauty Myths Debunked by a Formulator",
+      "tags": ["clean-beauty", "education", "science"],
+      "targetLength": "1600-1800 words"
+    },
+    {
+      "title": "Your 30-Day Skin Transformation Challenge",
+      "tags": ["challenges", "routines", "results"],
+      "targetLength": "1000-1200 words"
+    }
+  ],
+  "seoOptimization": {
+    "title": "Include target keyword, keep under 60 chars",
+    "excerpt": "Compelling summary with keyword, 150-160 chars",
+    "tags": "Use 3-5 relevant tags for categorization and filtering",
+    "images": "Add alt text to all images for accessibility and SEO",
+    "internalLinks": "Link to 3-5 relevant products or other articles",
+    "contentLength": "Aim for 1200-2000 words for comprehensive coverage",
+    "headings": "Use clear hierarchy (H2 > H3) with keywords"
+  }
+}

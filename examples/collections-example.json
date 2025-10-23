@@ -1,0 +1,115 @@
+{
+  "title": "Example Collection Structure for Madame Ko",
+  "description": "This file shows how to create collections that work with the existing architecture",
+  "exampleCollection": {
+    "id": "gid://shopify/Collection/1234567890",
+    "title": "Bestsellers",
+    "handle": "bestsellers",
+    "description": "Our most loved products, chosen by our community. These cult favorites combine the best of Korean clean beauty with Parisian luxury.",
+    "image": {
+      "url": "https://cdn.shopify.com/s/files/1/xxxx/bestsellers-banner.jpg",
+      "altText": "Bestsellers Collection",
+      "width": 1600,
+      "height": 900
+    },
+    "products": {
+      "edges": [
+        {
+          "node": {
+            "id": "gid://shopify/Product/1234567890",
+            "title": "Radiant Seoul Serum",
+            "handle": "radiant-seoul-serum",
+            "priceRange": {
+              "minVariantPrice": {
+                "amount": "68.00",
+                "currencyCode": "USD"
+              }
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "url": "https://cdn.shopify.com/s/files/1/xxxx/serum.jpg",
+                    "altText": "Radiant Seoul Serum"
+                  }
+                }
+              ]
+            },
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/1234567890",
+                    "availableForSale": true
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "howToCreateInShopify": {
+    "step1": "Go to Shopify Admin > Products > Collections",
+    "step2": "Click 'Create collection'",
+    "step3": "Enter Collection Title (e.g., 'Bestsellers', 'New Arrivals', 'Serums')",
+    "step4": "Add Description (will show on collection page)",
+    "step5": "Upload Collection Image (1600x900px recommended)",
+    "step6": "Set Collection Type:",
+    "manual": "Manually select which products to include",
+    "automated": "Set conditions (e.g., all products tagged 'bestseller')",
+    "step7": "Add products to collection",
+    "step8": "Save - collection will appear at /shop/collections/[handle]"
+  },
+  "recommendedCollections": [
+    {
+      "title": "Bestsellers",
+      "handle": "bestsellers",
+      "description": "Our most loved products",
+      "automatedCondition": "Product tag is equal to 'bestseller'",
+      "displayOrder": "Best selling"
+    },
+    {
+      "title": "New Arrivals",
+      "handle": "new-arrivals",
+      "description": "Fresh from Paris and Seoul",
+      "automatedCondition": "Product is published after [date]",
+      "displayOrder": "Created (newest first)"
+    },
+    {
+      "title": "Serums & Essences",
+      "handle": "serums-essences",
+      "description": "Concentrated treatments for targeted results",
+      "automatedCondition": "Product tag contains 'serum' OR 'essence'",
+      "displayOrder": "Alphabetically (A-Z)"
+    },
+    {
+      "title": "Cleansers",
+      "handle": "cleansers",
+      "description": "Gentle cleansing for all skin types",
+      "automatedCondition": "Product tag is equal to 'cleanser'",
+      "displayOrder": "Price (low to high)"
+    },
+    {
+      "title": "Moisturizers",
+      "handle": "moisturizers",
+      "description": "Hydration that goes beyond the surface",
+      "automatedCondition": "Product tag contains 'moisturizer' OR 'cream'",
+      "displayOrder": "Manual"
+    },
+    {
+      "title": "Complete Routines",
+      "handle": "complete-routines",
+      "description": "Curated sets for your perfect skincare ritual",
+      "type": "Manual selection",
+      "note": "Hand-pick product bundles and sets"
+    }
+  ],
+  "collectionSEOTips": {
+    "title": "Keep under 60 characters",
+    "description": "150-160 characters ideal for meta descriptions",
+    "handle": "Use lowercase, hyphens for spaces, descriptive",
+    "image": "High quality, shows collection theme, 1600x900px"
+  }
+}

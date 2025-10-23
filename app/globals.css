@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+    scroll-behavior: smooth;
+  }
+
+  * {
+    transition-property: transform, opacity;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  body {
+    @apply bg-cream-luxe text-charcoal font-inter antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-cormorant text-parisian-plum;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-cream-luxe;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-mauve-elegant rounded-full;
+    border: 2px solid theme('colors.cream-luxe');
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-perle-purple;
+  }
+}
+
+@layer components {
+  /* Button Styles */
+  .btn-primary {
+    @apply px-8 py-4 bg-gradient-primary text-white rounded-lg font-inter font-medium tracking-luxury;
+    @apply transition-all duration-300 ease-out;
+    @apply hover:scale-105 hover:shadow-elegant;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-4 border-2 border-perle-purple text-perle-purple rounded-lg font-inter font-medium tracking-luxury;
+    @apply transition-all duration-300 ease-out;
+    @apply hover:bg-perle-purple hover:text-white hover:scale-105;
+  }
+
+  /* Card Styles */
+  .card-elegant {
+    @apply bg-cream-luxe rounded-xl shadow-soft;
+    @apply transition-all duration-300 ease-out;
+    @apply hover:-translate-y-1 hover:shadow-elegant;
+  }
+
+  .card-frosted {
+    @apply bg-white/60 backdrop-blur-md rounded-xl border border-marble-grey/30;
+    @apply transition-all duration-300 ease-out;
+    @apply hover:scale-[1.02] hover:bg-white/70;
+  }
+
+  /* Input Styles */
+  .input-elegant {
+    @apply w-full px-4 py-3 bg-cream-luxe border border-marble-grey rounded-lg;
+    @apply focus:outline-none focus:ring-2 focus:ring-perle-purple focus:border-transparent;
+    @apply transition-all duration-200;
+  }
+
+  /* Divider Styles */
+  .divider-rose {
+    @apply h-px bg-rose-gold/30;
+  }
+
+  /* Text Styles */
+  .text-luxury-heading {
+    @apply font-cormorant text-4xl md:text-5xl lg:text-6xl text-parisian-plum tracking-tight;
+  }
+
+  .text-luxury-subheading {
+    @apply font-cormorant text-2xl md:text-3xl text-mauve-elegant;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .marble-texture {
+    background-image:
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(107, 91, 122, 0.01) 10px,
+        rgba(107, 91, 122, 0.01) 20px
+      );
+  }
+}

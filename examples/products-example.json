@@ -1,0 +1,120 @@
+{
+  "title": "Example Product Structure for Madame Ko",
+  "description": "This file shows the structure of products that work with the existing Shopify integration",
+  "exampleProduct": {
+    "id": "gid://shopify/Product/1234567890",
+    "title": "Radiant Seoul Serum",
+    "handle": "radiant-seoul-serum",
+    "description": "A luxurious Korean-inspired serum that combines the best of Seoul's clean beauty with Parisian elegance. Infused with ginseng, niacinamide, and hyaluronic acid to brighten, hydrate, and revitalize your skin.",
+    "descriptionHtml": "<p>A luxurious Korean-inspired serum that combines the best of Seoul's clean beauty with Parisian elegance.</p><p><strong>Key Ingredients:</strong></p><ul><li>Red Ginseng Extract - Revitalizes and energizes</li><li>Niacinamide - Brightens and evens skin tone</li><li>Hyaluronic Acid - Deep hydration</li></ul>",
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "68.00",
+        "currencyCode": "USD"
+      }
+    },
+    "images": {
+      "edges": [
+        {
+          "node": {
+            "url": "https://cdn.shopify.com/s/files/1/xxxx/serum-front.jpg",
+            "altText": "Radiant Seoul Serum - Front view",
+            "width": 1200,
+            "height": 1200
+          }
+        },
+        {
+          "node": {
+            "url": "https://cdn.shopify.com/s/files/1/xxxx/serum-side.jpg",
+            "altText": "Radiant Seoul Serum - Side view",
+            "width": 1200,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "gid://shopify/ProductVariant/1234567890",
+            "title": "30ml",
+            "priceV2": {
+              "amount": "68.00",
+              "currencyCode": "USD"
+            },
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Size",
+                "value": "30ml"
+              }
+            ],
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/xxxx/serum-30ml.jpg",
+              "altText": "30ml bottle"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/ProductVariant/1234567891",
+            "title": "50ml",
+            "priceV2": {
+              "amount": "98.00",
+              "currencyCode": "USD"
+            },
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Size",
+                "value": "50ml"
+              }
+            ],
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/xxxx/serum-50ml.jpg",
+              "altText": "50ml bottle"
+            }
+          }
+        }
+      ]
+    },
+    "tags": ["featured", "bestseller", "serum", "brightening"]
+  },
+  "howToAddInShopify": {
+    "step1": "Go to Shopify Admin > Products > Add product",
+    "step2": "Fill in Title and Description (use rich text editor for formatted content)",
+    "step3": "Add product images (1200x1200px minimum recommended)",
+    "step4": "Set pricing for each variant",
+    "step5": "Create variants (e.g., Size: 30ml, 50ml)",
+    "step6": "Add tags: 'featured' for homepage, 'bestseller', category tags",
+    "step7": "Set inventory and availability",
+    "step8": "Save and the product will automatically appear in your Next.js app"
+  },
+  "moreExamples": [
+    {
+      "name": "Parisian Night Cream",
+      "handle": "parisian-night-cream",
+      "description": "Rich overnight moisturizer with rose oil and peptides",
+      "price": "85.00",
+      "tags": ["featured", "moisturizer", "night-care"],
+      "variants": ["50ml Standard", "50ml + Spatula Set"]
+    },
+    {
+      "name": "Seoul Cleansing Balm",
+      "handle": "seoul-cleansing-balm",
+      "description": "Gentle oil-based cleanser that melts away makeup",
+      "price": "42.00",
+      "tags": ["cleanser", "bestseller"],
+      "variants": ["100ml"]
+    },
+    {
+      "name": "Mauve Essence Toner",
+      "handle": "mauve-essence-toner",
+      "description": "Hydrating toner with lavender and fermented ingredients",
+      "price": "58.00",
+      "tags": ["featured", "toner", "hydration"],
+      "variants": ["150ml", "200ml"]
+    }
+  ]
+}
